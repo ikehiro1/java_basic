@@ -68,6 +68,7 @@ public class Test2 {
         //NUMBER = 100;
         //STRING = "fuga";
 
+        //練習
         int o = 5,p = 3;
         System.out.println("o = " + o);
         System.out.println("p = " + p);
@@ -76,5 +77,33 @@ public class Test2 {
         System.out.println(o+ "*" +p+ "="+(o*p));
         System.out.println(o+ "/" +p+ "="+(o/p));
         System.out.println(o+ "%" +p+ "="+(o%p));
+
+        int m = 1,n = 2, l = 3, v = 4, c = 5;
+        int m1 = 1,n1 = 2, l1 = 3, v1 = 4, c3 = 5;
+
+        m = m + 2;
+        n = n - 1;
+        l = l * 3;
+        v = v / 2;
+        c = c % 2;
+
+        m1 += 2; 
+        n1 -= 1;
+        l1 *= 3;
+        v1 /= 2;
+        c3 %= 2;
+
+        System.out.println("m = " + m);
+        System.out.println("n = " + n);
+        System.out.println("l = " + l);
+        System.out.println("v = " + v);
+        System.out.println("c = " + c);
+
+        System.out.println("m1 = " + m);
+        System.out.println("n1 = " + n);
+        System.out.println("l1 = " + l);
+        System.out.println("v1 = " + v);
+        System.out.println("c3 = " + c);
+
     }
 }
